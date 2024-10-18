@@ -33,3 +33,18 @@ footer {
     background-color: #333;
     color: white;
 }
+
+p {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+img, video {
+    max-width: 100%;  /* Prevent overflow beyond screen size */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;   /* Ensure there's no extra space around elements */
+    margin: 0 auto;   /* Horizontal centering inside containers if needed */
+}
